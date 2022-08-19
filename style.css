@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:ital,wght@1,700&family=Poppins:wght@500&family=Rubik+Burned&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.card{
+    display: flex;
+    position: relative;
+    margin-top: 3rem;
+    padding: 10px;
+    flex-direction: row;
+    margin-bottom: 1.5rem;
+    border-radius: .75rem;
+    box-shadow: 0 .125rem .25rem rgba(66, 66, 66, .15);
+}
+.image{
+    padding: 10px;
+}
+.image img{
+    border-radius: 0.5rem;
+    width: 200px;
+}
+.contentBox{
+    margin: 10px;
+    margin-top: 10px;
+}
+.name{
+    margin-top: 15px;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 20px;
+color: #4F4F4F;
+}
+.post{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+}
+.contentBox .profile__contact{
+    display: inline-block;
+    position: absolute;
+    right:10px;
+    top: 1rem;
+    width: 300px;
+}
+.no-anchor-style{
+    text-decoration: none;
+    margin-left: 15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #4F4F4F;
+}
+.profile__description{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+
+}
+.skillBar{
+    width: 350px;
+    height: 500px;
+    padding: 20px;
+    border-radius: .75rem;
+    box-shadow: 0 .125rem .25rem rgba(66, 66, 66, .45);
+    margin-bottom: 1.5rem;
+
+}
+#skillHeading{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+text-transform: uppercase;
+color: #4F4F4F;
+}
+.skillContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin-top: 15px;
+}
+.skillSet{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .skills {
+        border-radius: 12px;
+        height: 8px;
+        position: relative;
+      }
+    .skillSet p{font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #4F4F4F;
+}
+.bar{
+    width: 65%;
+    background: #C4C4C4;
+    border-radius: 12px;
+    height: 8px;
+    position: relative;
+    top: -10px;
+}
+.html {width: 50%; background-color: 2F80ED;;} /* Green */
+.css {width: 80%; background-color: #2F80ED;} /* Blue */
+.JS {width: 65%; background-color: #2f80ED;}
+main{
+    display: flex;
+    flex-direction: row;
+}
+.projectSection{
+    position: relative;
+    width: 57rem;
+    left: 2rem;
+    padding: 15px;
+    border: 1px solid black;
+}
+.projectBar{
+    height: 100px;
+    background: #ffffff;
+    margin-bottom: 1.5rem;
+    border-radius: .75rem;
+    box-shadow: 0 .125rem .25rem rgba(66, 66, 66, .45);
+
+}
+.projectBar .pbHead{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 550;
+font-size: 20px;
+line-height: 22px;
+color: #4F4F4F;
+position: relative;
+top: 15px;
+left: 25px;
+}
+.projectBar #btnContainer{
+    margin-left: 20px;
+    margin-top: 25px;
+}
+.projectBar .btn{
+    border-color: #e7e7e7;
+    color: #4F4F4F;
+    cursor: pointer;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 8px;  
+    text-align: center;
+    border: 1px solid #4F4F4F;
+    border-radius: 17px;
+}
+.projectBar .btn.active,.btn:hover{
+    border: 1px solid #2F80ED;
+    background: #2F80ED;
+    color: #f1f1f1;
+    font-weight: 700;
+    
+}
+
+.projectBar .btn p{
+    text-transform: capitalize;
+    margin: 10px auto;
+    display: inline-block;
+    text-align: center;
+}
+.projectSection .projects{
+    display: grid;
+    gap: 10px;
+  grid-template-columns: auto auto auto;
+}
+.projectSection .proBox{
+    background: #FFFFFF;
+    border-radius: 12px;
+    box-shadow: 0 .125rem .25rem rgba(66, 66, 66, .55);
+    width: 275px;
+
+}
+.proBox img{
+    width:220px;
+    height: 185px;
+    margin: 10px;
+    margin-bottom: 15px;
+}
+.proContent{
+    padding: 5px;
+    margin-left: 15px;
+}
+.proTag{font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    color: #4F4F4F;
+    padding: 3px;
+}
+.proHead{
+    margin-top: 13px;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 29px;
+color: #333333;
+}
+.proDesc{
+    max-width: 230px;
+    margin-top: 10px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 20px;
+color: #828282;
+}
+.Demo{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 18px;
+padding-left: 20px;
+padding-right: 20px;
+}
+
+.code{
+
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 18px;
+padding-left: 20px;
+padding-right: 20px;
+}
+.hobbies .hobbiesHead{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+
+color: #4F4F4F;
+}
+.ending{
+    margin-top: 20px;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+
+color: #828282;
+}
+.ending a{
+    color: #828282;
+    text-decoration: none;
+}
